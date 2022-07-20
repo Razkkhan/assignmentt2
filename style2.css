@@ -1,0 +1,224 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Nunito', sans-serif;
+    }
+    
+    .container {
+        background: #161616;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 50px 140px;
+        margin-bottom: 130px;
+    
+    
+    }
+    .description p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .description {
+    
+    
+        color: white;
+        padding-left: 106px;
+        width: 50%;
+    }
+    
+    .description h1 {
+        font-size: 70px;
+    }
+    
+    .description button {
+        background: #DD0000;
+        border-radius: 5px;
+        color: white;
+        width: 187px;
+        height: 56px;
+        font-size: 20px;
+        border: 0;
+        margin-top: 30px;
+    }
+    
+    .description button .fa-greater-than {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+    }
+    
+    .image {
+        width: 50%;
+    }
+    
+    .image img {
+        width: 581px;
+        height: 613px;
+        margin-top: 50px;
+        padding-left: 80px;
+    
+    }
+    
+    .maisha {
+        margin-top: 130px;
+        display: flex;
+        gap: 24px;
+        margin: 50px 140px;
+    }
+    
+    .monia {
+        width: 312px;
+        height: 312px;
+        background: #161616;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .button-1,
+    .button-2,
+    .button-3 {
+        width: 252px;
+        height: 64px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: #161616;
+        border: 0;
+        border-radius: 10px;
+        margin: 0 30px;
+        margin-bottom: 30px;
+    }
+    
+    .button-1 {
+        margin-bottom: 24px;
+        background: #DD0000;
+        color: #FFFFFF;
+    }   
+    
+    
+/* Responsiveness (Mobile divice) */
+@media only screen and (max-width:576px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer a {
+        display: block;
+    }
+
+}
+
+
+.mohona{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 24px;
+}
+
+.info{
+    width: 250px;
+    height: 142px;
+    padding: 53px 30px;
+    margin-right: 24px;
+    margin-bottom: 24px; 
+    border-radius: 10px;
+    border: 1px solid rgb(164, 164, 164);
+    
+}
+.kajol{
+    display: flex;
+}
+.padding {
+    padding-right: 20px;
+}
+.text-align{
+    text-align: center;
+}
+
+@media only screen and(min-width:577px) and (max-width:992px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 444px;
+    background: #161616;
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.footer h2 {
+    padding-top: 95px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.footer hr {
+    margin-bottom: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.terminal {
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer a {
+    text-decoration: none;
+    margin-left: 5%;
+    color: white;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+
+  .fa-facebook {
+    background: none;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: none;
+    color: white;
+  }
+  .fa-linkedin{
+    background: none;
+    color: white;
+  }
